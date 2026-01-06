@@ -1,0 +1,5 @@
+spacy
+gensim
+nltk
+PyPDF2
+ijson
