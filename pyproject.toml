@@ -1,0 +1,23 @@
+[project]
+name = "dental-word2vec-pipeline"
+version = "1.0.0"
+description = "Modular PDF/XML Word2Vec and semantic-shift pipeline"
+requires-python = ">=3.10"
+dependencies = [
+  "gensim>=4.3",
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "scipy>=1.10",
+  "scikit-learn>=1.3",
+  "spacy>=3.7",
+  "PyMuPDF>=1.24",
+  "PyPDF2>=3.0",
+  "matplotlib>=3.8"
+]
+
+[project.optional-dependencies]
+visualization = ["umap-learn>=0.5"]
+test = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

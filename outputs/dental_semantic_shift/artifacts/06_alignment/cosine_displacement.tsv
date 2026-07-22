@@ -1,0 +1,10 @@
+term	material_system	status	in_pre	in_post	pre_count	post_count	cosine_displacement
+yttria	zirconia	missing	False	False	0	0	
+monolithic_zirconia	zirconia	missing	False	False	0	0	
+translucency	zirconia	missing	False	False	0	0	
+opacity	structural_color_composite	missing	False	False	0	0	
+refractive_index	structural_color_composite	missing	False	False	0	0	
+composite	structural_color_composite	compared	True	True	7	99	0.0003397913738579783
+brittle_fracture	short_fiber_composite	missing	False	False	0	0	
+crack_propagation	short_fiber_composite	missing	False	False	0	0	
+everx	short_fiber_composite	missing	False	False	0	0	

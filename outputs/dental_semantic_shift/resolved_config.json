@@ -1,0 +1,125 @@
+{
+  "run_name": "dental_semantic_shift",
+  "seed": 42,
+  "output_dir": "/home/embeddings/dental_word2vec_modular/outputs/dental_semantic_shift",
+  "periods": {
+    "pre2018": [
+      {
+        "type": "pdf",
+        "paths": [
+          "/home/embeddings/dental_word2vec_modular/example_articles/pre2018"
+        ],
+        "recursive": true,
+        "glob": "*.pdf",
+        "sample_fraction": 1.0
+      },
+      {
+        "type": "xml",
+        "paths": [
+          "/home/embeddings/dental_word2vec_modular/example_articles/pre2018/xml"
+        ],
+        "recursive": true,
+        "glob": "*.xml",
+        "sample_fraction": 1.0
+      }
+    ],
+    "post2018": [
+      {
+        "type": "pdf",
+        "paths": [
+          "/home/embeddings/dental_word2vec_modular/example_articles/post2018"
+        ],
+        "recursive": true,
+        "glob": "*.pdf",
+        "sample_fraction": 1.0
+      },
+      {
+        "type": "xml",
+        "paths": [
+          "/home/embeddings/dental_word2vec_modular/example_articles/post2018/xml"
+        ],
+        "recursive": true,
+        "glob": "*.xml",
+        "sample_fraction": 1.0
+      }
+    ]
+  },
+  "manifest": {
+    "hash_files": true
+  },
+  "extraction": {
+    "xml_split": "section",
+    "include_title": true,
+    "include_abstract": true,
+    "include_keywords": true,
+    "include_section_titles": true,
+    "min_chars": 30,
+    "skip_unknown_year": false,
+    "repair_pdf_after_eof": true
+  },
+  "preprocessing": {
+    "engine": "spacy",
+    "spacy_model": "en_core_web_sm",
+    "disable": [
+      "ner",
+      "parser"
+    ],
+    "max_length": 3000000,
+    "batch_size": 32,
+    "lowercase": true,
+    "lemmatize": true,
+    "remove_stopwords": true,
+    "stopword_source": "nltk",
+    "remove_numbers": true
+  },
+  "phrases": {
+    "min_count": 50,
+    "threshold": 10.0,
+    "max_vocab_size": 40000000,
+    "progress_every": 10000,
+    "delimiter": "_"
+  },
+  "word2vec": {
+    "vector_size": 200,
+    "window": 8,
+    "min_count": 2,
+    "epochs": 10,
+    "sample": 0.0001,
+    "alpha": 0.025,
+    "min_alpha": 0.0005,
+    "negative": 10,
+    "skip_gram": false,
+    "deterministic": true,
+    "progress_every": 10000
+  },
+  "analysis": {
+    "target_terms_path": "/home/embeddings/dental_word2vec_modular/configs/target_terms.tsv"
+  },
+  "alignment": {
+    "min_count": 2,
+    "top_n": 30000
+  },
+  "evidence": {
+    "neighbor_mode": "common_vocab",
+    "neighbors_topn": 20,
+    "k_values": [
+      5,
+      10,
+      20
+    ]
+  },
+  "visualization": {
+    "enabled": true,
+    "plot_sets": {
+      "structural_color_composite": [
+        "opacity",
+        "refractive_index",
+        "composite"
+      ]
+    }
+  },
+  "example_export": {
+    "enabled": true,
+    "output_dir": "/home/embeddings/dental_word2vec_modular/examples"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "preprocessing": {
+    "documents": 10,
+    "tokens": 26214,
+    "documents_pre2018": 5,
+    "tokens_pre2018": 9219,
+    "documents_post2018": 5,
+    "tokens_post2018": 16995,
+    "written_documents": 10,
+    "engine": "spacy",
+    "avg_tokens_per_document": 2621.4
+  },
+  "phrases": {
+    "documents": 10,
+    "input_tokens": 26214,
+    "output_tokens": 25967,
+    "phrase_tokens": 247,
+    "unique_phrase_tokens": 4
+  },
+  "training": {
+    "periods": {
+      "pre2018": {
+        "n_documents": 5,
+        "n_tokens": 9152,
+        "empty_documents": 0,
+        "max_document_tokens": 2307,
+        "avg_tokens_per_document": 1830.4,
+        "vocabulary_size": 1015,
+        "model_path": "artifacts/05_models/word2vec_pre2018.model"
+      },
+      "post2018": {
+        "n_documents": 5,
+        "n_tokens": 16815,
+        "empty_documents": 0,
+        "max_document_tokens": 3996,
+        "avg_tokens_per_document": 3363.0,
+        "vocabulary_size": 1800,
+        "model_path": "artifacts/05_models/word2vec_post2018.model"
+      }
+    },
+    "workers_effective": 1,
+    "seed": 42
+  },
+  "alignment": {
+    "pre_period": "pre2018",
+    "post_period": "post2018",
+    "n_alignment_terms": 449,
+    "n_target_terms": 9,
+    "n_compared_terms": 1,
+    "n_missing_terms": 8,
+    "scale": 0.16521585288769935,
+    "orthogonality_error": 4.792987195326319e-14
+  },
+  "evidence": {
+    "neighbor_mode": "common_vocab",
+    "target_terms": 9,
+    "compared_terms": 1,
+    "neighbors_topn": 20,
+    "jaccard_summary": {
+      "5": {
+        "n_terms": 1,
+        "mean": 0.1111111111111111,
+        "median": 0.1111111111111111
+      },
+      "10": {
+        "n_terms": 1,
+        "mean": 0.1111111111111111,
+        "median": 0.1111111111111111
+      },
+      "20": {
+        "n_terms": 1,
+        "mean": 0.17647058823529413,
+        "median": 0.17647058823529413
+      }
+    }
+  },
+  "visualization": {
+    "enabled": true,
+    "plots_written": 1,
+    "sets": {
+      "structural_color_composite": {
+        "status": "written",
+        "n_points": 2,
+        "methods": [
+          "pca"
+        ]
+      }
+    }
+  },
+  "example_export": {
+    "enabled": true,
+    "n_expected_files": 7,
+    "n_existing_files": 7,
+    "files": {
+      "config": "example_config.json",
+      "manifest": "example_manifest.jsonl",
+      "preprocessed": "example_preprocessed_tokens.txt",
+      "phrased": "example_phrased_tokens.txt",
+      "vocabulary": "example_vocabulary_counts.tsv",
+      "neighbors": "example_neighbors.tsv",
+      "displacement_summary": "example_displacement_summary.tsv"
+    }
+  }
+}

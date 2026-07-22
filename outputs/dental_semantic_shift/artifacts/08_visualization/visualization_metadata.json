@@ -1,0 +1,9 @@
+{
+  "structural_color_composite": {
+    "status": "written",
+    "n_points": 2,
+    "methods": [
+      "pca"
+    ]
+  }
+}

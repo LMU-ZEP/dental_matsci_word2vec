@@ -1,0 +1,4 @@
+term	material_system	mode	k	overlap_count	jaccard	shared_neighbors
+composite	structural_color_composite	common_vocab	5	1	0.1111111111111111	j
+composite	structural_color_composite	common_vocab	10	2	0.1111111111111111	j;show
+composite	structural_color_composite	common_vocab	20	6	0.17647058823529413	dental;j;material;show;stress;test

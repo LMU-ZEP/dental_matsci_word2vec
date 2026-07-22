@@ -1,0 +1,10 @@
+term	material_system
+yttria	zirconia
+monolithic_zirconia	zirconia
+translucency	zirconia
+opacity	structural_color_composite
+refractive_index	structural_color_composite
+composite	structural_color_composite
+brittle_fracture	short_fiber_composite
+crack_propagation	short_fiber_composite
+everx	short_fiber_composite

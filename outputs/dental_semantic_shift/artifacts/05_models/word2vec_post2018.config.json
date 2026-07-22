@@ -1,0 +1,28 @@
+{
+  "period": "post2018",
+  "model_path": "/home/embeddings/dental_word2vec_modular/outputs/dental_semantic_shift/artifacts/05_models/word2vec_post2018.model",
+  "corpus_path": "/home/embeddings/dental_word2vec_modular/outputs/dental_semantic_shift/artifacts/04_phrases/phrased_tokens.jsonl",
+  "corpus_stats": {
+    "n_documents": 5,
+    "n_tokens": 16815,
+    "empty_documents": 0,
+    "max_document_tokens": 3996,
+    "avg_tokens_per_document": 3363.0
+  },
+  "vocabulary_size": 1800,
+  "word2vec": {
+    "vector_size": 200,
+    "window": 8,
+    "min_count": 2,
+    "epochs": 10,
+    "sample": 0.0001,
+    "alpha": 0.025,
+    "min_alpha": 0.0005,
+    "negative": 10,
+    "skip_gram": false,
+    "deterministic": true,
+    "progress_every": 10000,
+    "workers_effective": 1,
+    "seed": 42
+  }
+}
