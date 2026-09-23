@@ -1,0 +1,101 @@
+{
+  "alignment_diagnostic": {
+    "diagnostic_fit_terms": 24000,
+    "heldout_terms": 6000,
+    "median_cosine_distance_before": 0.9972589758266132,
+    "median_cosine_distance_after": 0.2695927306333104,
+    "median_per_term_improvement": 0.7249548953870293,
+    "top1_accuracy": 0.883,
+    "top5_accuracy": 0.9683333333333334,
+    "top10_accuracy": 0.9803333333333332,
+    "orthogonality_error": 5.0324192891127877e-14
+  },
+  "alignment_vocabulary_sensitivity": {
+    "n_unique_compared_terms": 53,
+    "pearson_r": 0.9981916329609319,
+    "spearman_rho": 0.992823738106757,
+    "mean_absolute_difference": 0.004423790454556946,
+    "median_absolute_difference": 0.003380743989215,
+    "max_absolute_difference": 0.0201320330457916
+  },
+  "reliability_filter": {
+    "all_unique_terms": {
+      "n_terms": 53,
+      "mean_displacement": 0.166066310091936,
+      "median_displacement": 0.134409191133656,
+      "sd_displacement": 0.0854854483586116
+    },
+    "min_count_ge_1000": {
+      "n_terms": 43,
+      "mean_displacement": 0.1358286609672923,
+      "median_displacement": 0.1274905501770387,
+      "sd_displacement": 0.0441564639449886
+    }
+  },
+  "consistency_90pct": [
+    {
+      "label": "pre2018",
+      "full_model": "outputs_models/matsci_pre2018_sharedphrases.model",
+      "sample_model": "outputs_consistency_90pct/models/pre2018_fraction0.90_seed42.model",
+      "n_anchors_total": 31,
+      "n_anchors_present_in_both": 27,
+      "top_k": [
+        10,
+        20
+      ],
+      "mean_jaccard": {
+        "10": 0.7471170804504136,
+        "20": 0.7629315397431341
+      },
+      "median_jaccard": {
+        "10": 0.8181818181818182,
+        "20": 0.8181818181818182
+      },
+      "mean_overlap": {
+        "10": 8.481481481481481,
+        "20": 17.22222222222222
+      },
+      "pairwise_similarity_consistency": {
+        "label": "pre2018",
+        "n_terms_in_pairwise_check": 390,
+        "n_pairs": 75855,
+        "pearson_pairwise_similarity": 0.9831416725965082,
+        "spearman_pairwise_similarity": 0.9773092578830483,
+        "mean_abs_pairwise_similarity_difference": 0.01862497665812947,
+        "median_abs_pairwise_similarity_difference": 0.015109360218048096
+      }
+    },
+    {
+      "label": "post2018",
+      "full_model": "outputs_models/matsci_post2018_sharedphrases.model",
+      "sample_model": "outputs_consistency_90pct/models/post2018_fraction0.90_seed1042.model",
+      "n_anchors_total": 31,
+      "n_anchors_present_in_both": 31,
+      "top_k": [
+        10,
+        20
+      ],
+      "mean_jaccard": {
+        "10": 0.7938190841416646,
+        "20": 0.7803738311452195
+      },
+      "median_jaccard": {
+        "10": 0.8181818181818182,
+        "20": 0.8181818181818182
+      },
+      "mean_overlap": {
+        "10": 8.774193548387096,
+        "20": 17.451612903225808
+      },
+      "pairwise_similarity_consistency": {
+        "label": "post2018",
+        "n_terms_in_pairwise_check": 372,
+        "n_pairs": 69006,
+        "pearson_pairwise_similarity": 0.983669394687676,
+        "spearman_pairwise_similarity": 0.9776192564820976,
+        "mean_abs_pairwise_similarity_difference": 0.01879438393101296,
+        "median_abs_pairwise_similarity_difference": 0.015373408794403076
+      }
+    }
+  ]
+}
