@@ -1,0 +1,16 @@
+4Y/5Y emergence audit
+======================
+
+Interpretation is deliberately conservative. A SUPPORTED result refers to literal notation/token emergence in the analyzed corpus, not to first discovery of the underlying material concept.
+
+4y_psz: SUPPORTED_POST2018_SPECIFIC_NOTATION
+  The strict literal notation is absent from the pre-2018 raw, preprocessed, phrased, and model-vocabulary stages, while it is present through all corresponding post-2018 stages. This supports describing the notation/token as post-2018-specific in the analyzed corpus. It does not prove that the underlying zirconia composition or concept itself first appeared after 2018.
+
+5y_psz: SUPPORTED_POST2018_SPECIFIC_NOTATION
+  The strict literal notation is absent from the pre-2018 raw, preprocessed, phrased, and model-vocabulary stages, while it is present through all corresponding post-2018 stages. This supports describing the notation/token as post-2018-specific in the analyzed corpus. It does not prove that the underlying zirconia composition or concept itself first appeared after 2018.
+
+4y_tzp: SUPPORTED_WITH_AMBIGUOUS_SPACED_RAW_HITS
+  No strict pre-2018 notation evidence was found at the raw, preprocessed, phrased, or model-vocabulary stages. However, 2 spaced raw candidate(s) (e.g. '4 Y-TZP') were found and are reported separately for manual review because such forms can arise at table/list boundaries. They are not counted as strict notation evidence. Post-2018 strict notation is present through all pipeline stages.
+
+5y_tzp: UNSAFE_PRE2018_STRICT_RAW_EVIDENCE
+  Strict pre-2018 raw-corpus notation evidence exists (4 occurrence(s)), although the canonical model token is absent. Therefore model absence cannot establish that the notation first appeared after 2018. The pre-2018 phrased count (4) is below min_count=20, so Word2Vec vocabulary filtering can explain the model absence. In addition, 9 decimal-prefixed candidate(s) such as 2.5Y/4.5Y notation were explicitly excluded from the target count.

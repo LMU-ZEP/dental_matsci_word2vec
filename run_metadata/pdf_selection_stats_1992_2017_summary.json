@@ -1,0 +1,22 @@
+{
+  "total_jsonl_records": 1117998,
+  "pdf_files_indexed": 58889,
+  "missing_pdf": 1059109,
+  "broken_pdf": 1956,
+  "skipped_old_or_unknown_year": 4181,
+  "skipped_xml_duplicate": 3155,
+  "skipped_duplicate_pdf_file": 1307,
+  "skipped_non_english_or_unknown_language": 4802,
+  "selected": 45926,
+  "extra_pdf_dir": "<LOCAL_SOURCE_ROOT>/dmj_before_2017/",
+  "extra_pdf_total": 2438,
+  "extra_pdf_selected": 2437,
+  "extra_pdf_broken": 1,
+  "extra_pdf_skipped_duplicate_path": 0,
+  "extra_pdf_skipped_non_english": 0,
+  "min_year": 1992,
+  "require_english_language": true,
+  "language_check_max_pages": 2,
+  "output_titles_path": "<LOCAL_OUTPUT_ROOT>/selected_pdf_titles_1992_2017.txt",
+  "output_stats_dir": "<LOCAL_OUTPUT_ROOT>/pdf_selection_stats_1992_2017"
+}

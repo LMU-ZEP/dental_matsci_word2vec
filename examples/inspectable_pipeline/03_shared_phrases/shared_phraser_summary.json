@@ -1,0 +1,35 @@
+{
+  "input_corpora": [
+    "<REPOSITORY_ROOT>/examples/inspectable_pipeline/02_preprocessing/pre_preprocessed.json",
+    "<REPOSITORY_ROOT>/examples/inspectable_pipeline/02_preprocessing/post_preprocessed.json"
+  ],
+  "output_corpora": [
+    "<REPOSITORY_ROOT>/examples/inspectable_pipeline/03_shared_phrases/pre_shared_phrased.json",
+    "<REPOSITORY_ROOT>/examples/inspectable_pipeline/03_shared_phrases/post_shared_phrased.json"
+  ],
+  "phraser_path": "<REPOSITORY_ROOT>/examples/inspectable_pipeline/03_shared_phrases/shared_demo.phraser",
+  "phrase_min_count": 2,
+  "phrase_threshold": 0.1,
+  "max_vocab_size": 40000000,
+  "corpus_summaries": [
+    {
+      "input_path": "<REPOSITORY_ROOT>/examples/inspectable_pipeline/02_preprocessing/pre_preprocessed.json",
+      "output_path": "<REPOSITORY_ROOT>/examples/inspectable_pipeline/03_shared_phrases/pre_shared_phrased.json",
+      "n_docs": 13,
+      "input_tokens": 620,
+      "output_tokens": 312,
+      "phrase_tokens_total": 308,
+      "unique_phrase_tokens": 62
+    },
+    {
+      "input_path": "<REPOSITORY_ROOT>/examples/inspectable_pipeline/02_preprocessing/post_preprocessed.json",
+      "output_path": "<REPOSITORY_ROOT>/examples/inspectable_pipeline/03_shared_phrases/post_shared_phrased.json",
+      "n_docs": 13,
+      "input_tokens": 596,
+      "output_tokens": 300,
+      "phrase_tokens_total": 296,
+      "unique_phrase_tokens": 70
+    }
+  ],
+  "top_phrases_csv": "<REPOSITORY_ROOT>/examples/inspectable_pipeline/03_shared_phrases/top_phrases.csv"
+}

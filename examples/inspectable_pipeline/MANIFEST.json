@@ -1,0 +1,213 @@
+{
+  "purpose": "Inspectable synthetic pipeline intermediates generated with actual repository code.",
+  "synthetic_sources_only": true,
+  "production_preprocessing_exercised": true,
+  "demo_parameters_are_not_manuscript_parameters": true,
+  "files": [
+    {
+      "path": "01_sources_and_extraction/post_pdf_extraction.json",
+      "bytes": 6047,
+      "sha256": "cb2a4678e1f077df4d9e28dc8a86a5bec04da58fdfdc091dbcec93d8bcaf4b90"
+    },
+    {
+      "path": "01_sources_and_extraction/post_raw_combined.json",
+      "bytes": 5273,
+      "sha256": "492e9c93f79f88cbb2a29c8ad8deeb30335acb68f55c9bcc48d6a7b90832df21"
+    },
+    {
+      "path": "01_sources_and_extraction/post_xml_raw.json",
+      "bytes": 2466,
+      "sha256": "67896552a826a1a01720593e5e3cf8cbc7fb9504687ff0e15de3eb42428880d4"
+    },
+    {
+      "path": "01_sources_and_extraction/pre_pdf_extraction.json",
+      "bytes": 6910,
+      "sha256": "3d93e5492eda66cbd2681578aacbbf912cb92904fe9f0b11611db9dd6b433e9a"
+    },
+    {
+      "path": "01_sources_and_extraction/pre_raw_combined.json",
+      "bytes": 5681,
+      "sha256": "da0961e1344fa8e6cfa981bb5b180f90af421820b0bcbc6509d9d145dfceb240"
+    },
+    {
+      "path": "01_sources_and_extraction/pre_xml_raw.json",
+      "bytes": 2442,
+      "sha256": "bd85292e03d3af455cd841a803d2bc20816fb373e591da3128644b432355e30c"
+    },
+    {
+      "path": "01_sources_and_extraction/source_manifest.jsonl",
+      "bytes": 1480,
+      "sha256": "d32e6571e46f14d5aded6a22742a9f53f140a1b62be58422245d799314f8c965"
+    },
+    {
+      "path": "02_preprocessing/post_preprocessed.json",
+      "bytes": 6532,
+      "sha256": "92f50e5466a275e4f4a75306a390584b34a35037a8a5bd4276900bf7f209b064"
+    },
+    {
+      "path": "02_preprocessing/pre_preprocessed.json",
+      "bytes": 6996,
+      "sha256": "b0e88eff99a563cbe687c4945d5d53831e344cd4b8891c462bc8d9243995fa92"
+    },
+    {
+      "path": "02_preprocessing/preprocessing_summary.json",
+      "bytes": 399,
+      "sha256": "c30ed396234ec8919f4e558537d68b8d04953b40949926082a29da39217e5701"
+    },
+    {
+      "path": "02_preprocessing/run_post/logs/inspectable_demo_post_seed42.failed_preprocess.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "02_preprocessing/run_pre/logs/inspectable_demo_pre_seed42.failed_preprocess.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_shared_phrases/post_shared_phrased.json",
+      "bytes": 5644,
+      "sha256": "a4836082ea9a6fa76ba5a1277a780c282bfb2edf9701083998477ac34519e087"
+    },
+    {
+      "path": "03_shared_phrases/pre_shared_phrased.json",
+      "bytes": 6072,
+      "sha256": "a51f21ef4677d91829445282b4a5f5e01d456234960b7761a08cad43cb6d7641"
+    },
+    {
+      "path": "03_shared_phrases/shared_demo.phraser",
+      "bytes": 3234,
+      "sha256": "b51ca3e65fa2a80bc664937912b4466d341dbc8b2b4bcf818f3568045cd9db25"
+    },
+    {
+      "path": "03_shared_phrases/shared_phraser_summary.json",
+      "bytes": 1520,
+      "sha256": "4f2eed118db75fea155768bad02deeaf488ec033463c9b3e7c4a7dca56bb4d09"
+    },
+    {
+      "path": "03_shared_phrases/top_phrases.csv",
+      "bytes": 2339,
+      "sha256": "bb28822adc6c329e2c39b5119aba9b92407395e2f35abb6f902f5d66f97bedb6"
+    },
+    {
+      "path": "04_word2vec/post_demo.config.json",
+      "bytes": 1002,
+      "sha256": "2454b08f95611cc971056d805ffd57686d10b267cdf204b05f0ea0353ea3f93f"
+    },
+    {
+      "path": "04_word2vec/post_demo.model",
+      "bytes": 24896,
+      "sha256": "e7260c51f6ddc39310ca39d2796d7651c603839ed81d02385fae661217f940b3"
+    },
+    {
+      "path": "04_word2vec/post_demo.vocab.csv",
+      "bytes": 1341,
+      "sha256": "5d19ea276ced6ad30289cc941e661f4c0660de7af1fe8f6aa9290baccb354b20"
+    },
+    {
+      "path": "04_word2vec/pre_demo.config.json",
+      "bytes": 996,
+      "sha256": "38aa62353b39ba96e5e9df72722a14aa9c6b9e0e2f60aa9d5c5f249afd5d05ad"
+    },
+    {
+      "path": "04_word2vec/pre_demo.model",
+      "bytes": 22747,
+      "sha256": "7d00a0a78c52a567aeee4177e8b34641d355bb4950d2f66ddd5e280dc30cdb20"
+    },
+    {
+      "path": "04_word2vec/pre_demo.vocab.csv",
+      "bytes": 1236,
+      "sha256": "0b3afada3e64b18a0ef558eb1ef30e66b0c786469cb8ffd55c3ca1ba4e4b4c70"
+    },
+    {
+      "path": "04_word2vec/trained_vectors_sample.csv",
+      "bytes": 4661,
+      "sha256": "2cbab8d2ce7d2af589901b15437661d1ad0265aeb98ed4bcb1b35a4d8b9751ce"
+    },
+    {
+      "path": "05_procrustes/alignment_terms.txt",
+      "bytes": 248,
+      "sha256": "4ecf9b838f7ef5cb768bffbe407bc7524cb3cba29b5bc229cb2f936ae610da51"
+    },
+    {
+      "path": "05_procrustes/cosine_displacement.csv",
+      "bytes": 246,
+      "sha256": "035cf23de42041d79553bd3cb247559e9768b4db62ba1fc946c19a32edc3660c"
+    },
+    {
+      "path": "05_procrustes/demo_target_terms.tsv",
+      "bytes": 128,
+      "sha256": "13b1c0ce9e5e9604abe447491886864adf6a94e129b5fd0ae369955929086105"
+    },
+    {
+      "path": "05_procrustes/procrustes_alignment.npz",
+      "bytes": 8676,
+      "sha256": "0f5ec4c0e88fe6933fa40b2fab2f710ceae78683e898222be23eafcfae5e02cc"
+    },
+    {
+      "path": "05_procrustes/procrustes_metadata.json",
+      "bytes": 461,
+      "sha256": "b24814f4db24111ac7997c1b14425d52d43b74dd1b6303c15701e7742e2972d8"
+    },
+    {
+      "path": "06_semantic_evidence/jaccard_group_summary_common_vocab.csv",
+      "bytes": 530,
+      "sha256": "4cad49485fceabb5096200103a5518998afa0a5ee4f55cf188fffa5551472890"
+    },
+    {
+      "path": "06_semantic_evidence/jaccard_overlap_common_vocab.csv",
+      "bytes": 2381,
+      "sha256": "e89b5563d2ac47ad42d3326a73f08c03e96bbfd8ecc1a7f56d5a7442543a4fdd"
+    },
+    {
+      "path": "06_semantic_evidence/jaccard_summary_common_vocab.csv",
+      "bytes": 215,
+      "sha256": "9f04b0e7e2f6144bf5b6d28a0c70c199866c3d29d2db6a886bc8bbc04e82904c"
+    },
+    {
+      "path": "06_semantic_evidence/nearest_neighbor_table_common_vocab.csv",
+      "bytes": 1835,
+      "sha256": "be94c0a8d633d011e3c94b32b9c027a37174b9732c3d80a2abf20a56bfb43ae9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 744,
+      "sha256": "a467c21a2dc265818abcd06e2d48743b525b4d0a3c6f2044e17a46d685ca70c2"
+    },
+    {
+      "path": "reports/01_sources_and_extraction.md",
+      "bytes": 480,
+      "sha256": "657a6ceea3745174a772d31bb4d7c7bbf3ad49a35f29425f000f03711048462d"
+    },
+    {
+      "path": "reports/02_preprocessing.md",
+      "bytes": 468,
+      "sha256": "ccc71a602947f2e44c1c5777bdd81d92ff4295fe1d2bde57a837f7b45afc9b19"
+    },
+    {
+      "path": "reports/03_shared_phrases.md",
+      "bytes": 783,
+      "sha256": "f9dc59205eee1ca561f6b3cc06ef844619c513746056df94d4fbc319af14e72e"
+    },
+    {
+      "path": "reports/04_word2vec_training.md",
+      "bytes": 583,
+      "sha256": "ff3b803de6de74f43c4f5a332b5f758883fa3061dcf5674b005c02b02b57d3b6"
+    },
+    {
+      "path": "reports/05_procrustes_alignment.md",
+      "bytes": 706,
+      "sha256": "6b733dabb3a4f594b28612a015b18ac744c892527a9f5f0afe001fd931192610"
+    },
+    {
+      "path": "reports/06_semantic_evidence.md",
+      "bytes": 563,
+      "sha256": "585311dd6cac07f156c9ad0796593768ab54b5b8fa9a755d8114c82c1938e218"
+    },
+    {
+      "path": "reports/07_relation_to_manuscript.md",
+      "bytes": 893,
+      "sha256": "9a55a893ee5c7d3f06cffd3d9b6a2df994c0b8e6fa4193f64d070b01f4402068"
+    }
+  ]
+}

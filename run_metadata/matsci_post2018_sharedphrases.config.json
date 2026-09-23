@@ -1,0 +1,32 @@
+{
+  "corpus": "outputs_shared/matsci_post2018_seed42.shared_phrased.json",
+  "model_path": "outputs_models/matsci_post2018_sharedphrases.model",
+  "vocab_path": "outputs_models/matsci_post2018_sharedphrases.vocab.csv",
+  "config_path": "outputs_models/matsci_post2018_sharedphrases.config.json",
+  "corpus_stats": {
+    "n_docs": 646050,
+    "n_tokens": 260521379,
+    "empty_docs": 0,
+    "max_doc_tokens": 656136,
+    "avg_tokens_per_doc": 403.253
+  },
+  "word2vec": {
+    "vector_size": 200,
+    "window": 8,
+    "min_count": 20,
+    "epochs": 15,
+    "sample": 0.0001,
+    "alpha": 0.025,
+    "min_alpha": 0.0005,
+    "negative": 15,
+    "sg": 1,
+    "skip_gram": true,
+    "seed": 42,
+    "workers": 1,
+    "deterministic": true
+  },
+  "phrase_detection": {
+    "trained_in_this_script": false,
+    "note": "This script expects phrase detection to be already applied, e.g. by build_shared_phraser.py."
+  }
+}

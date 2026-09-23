@@ -1,0 +1,2 @@
+n_alignment_train_terms,n_alignment_eval_terms,mean_cosine_before,mean_cosine_after,median_cosine_before,median_cosine_after,median_improvement,top1_accuracy,top5_accuracy,top10_accuracy,mean_reciprocal_rank,median_rank,orthogonality_error
+24000,6000,0.9973706822731337,0.286575838444127,0.9972589758266133,0.26959273063331046,0.7249548953870293,0.883,0.9683333333333334,0.9803333333333333,0.9213828929843138,1.0,5.032419289112787e-14

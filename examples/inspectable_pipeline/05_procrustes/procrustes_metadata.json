@@ -1,0 +1,12 @@
+{
+  "pre_model": "<REPOSITORY_ROOT>/examples/inspectable_pipeline/04_word2vec/pre_demo.model",
+  "post_model": "<REPOSITORY_ROOT>/examples/inspectable_pipeline/04_word2vec/post_demo.model",
+  "target_terms_file": "<REPOSITORY_ROOT>/examples/inspectable_pipeline/05_procrustes/demo_target_terms.tsv",
+  "min_count": 1,
+  "top_n": 15,
+  "n_alignment_terms": 15,
+  "n_target_terms": 3,
+  "n_compared_terms": 3,
+  "n_missing_terms": 0,
+  "scale": 2.08441634381112
+}

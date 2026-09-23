@@ -1,0 +1,32 @@
+{
+  "corpus": "<REPOSITORY_ROOT>/examples/inspectable_pipeline/03_shared_phrases/pre_shared_phrased.json",
+  "model_path": "<REPOSITORY_ROOT>/examples/inspectable_pipeline/04_word2vec/pre_demo.model",
+  "vocab_path": "<REPOSITORY_ROOT>/examples/inspectable_pipeline/04_word2vec/pre_demo.vocab.csv",
+  "config_path": "<REPOSITORY_ROOT>/examples/inspectable_pipeline/04_word2vec/pre_demo.config.json",
+  "corpus_stats": {
+    "n_docs": 13,
+    "n_tokens": 312,
+    "empty_docs": 0,
+    "max_doc_tokens": 172,
+    "avg_tokens_per_doc": 24.0
+  },
+  "word2vec": {
+    "vector_size": 30,
+    "window": 5,
+    "min_count": 1,
+    "epochs": 20,
+    "sample": 0.001,
+    "alpha": 0.025,
+    "min_alpha": 0.0005,
+    "negative": 5,
+    "sg": 1,
+    "skip_gram": true,
+    "seed": 42,
+    "workers": 1,
+    "deterministic": true
+  },
+  "phrase_detection": {
+    "trained_in_this_script": false,
+    "note": "This script expects phrase detection to be already applied, e.g. by build_shared_phraser.py."
+  }
+}

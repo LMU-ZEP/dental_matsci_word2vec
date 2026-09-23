@@ -1,0 +1,10 @@
+{"period": "pre2018", "source_type": "xml", "path": "examples/fixtures/xml_pre/pre_1.xml", "synthetic": true, "included_in_demo_training": true}
+{"period": "pre2018", "source_type": "xml", "path": "examples/fixtures/xml_pre/pre_2.xml", "synthetic": true, "included_in_demo_training": true}
+{"period": "pre2018", "source_type": "xml", "path": "examples/fixtures/xml_pre/pre_3.xml", "synthetic": true, "included_in_demo_training": true}
+{"period": "pre2018", "source_type": "xml", "path": "examples/fixtures/xml_pre/pre_4.xml", "synthetic": true, "included_in_demo_training": true}
+{"period": "post2018", "source_type": "xml", "path": "examples/fixtures/xml_post/post_1.xml", "synthetic": true, "included_in_demo_training": true}
+{"period": "post2018", "source_type": "xml", "path": "examples/fixtures/xml_post/post_2.xml", "synthetic": true, "included_in_demo_training": true}
+{"period": "post2018", "source_type": "xml", "path": "examples/fixtures/xml_post/post_3.xml", "synthetic": true, "included_in_demo_training": true}
+{"period": "post2018", "source_type": "xml", "path": "examples/fixtures/xml_post/post_4.xml", "synthetic": true, "included_in_demo_training": true}
+{"period": "pre2018", "source_type": "pdf", "path": "examples/fixtures/pdf/synthetic_pre2018.pdf", "synthetic": true, "included_in_demo_training": true}
+{"period": "post2018", "source_type": "pdf", "path": "examples/fixtures/pdf/synthetic_post2018.pdf", "synthetic": true, "included_in_demo_training": true}

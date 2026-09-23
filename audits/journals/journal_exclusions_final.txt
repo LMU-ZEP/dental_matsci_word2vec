@@ -1,0 +1,29 @@
+# Explicit non-journal sources for Table S2 journal statistics.
+# These records remain in the training corpus; only journal-level statistics exclude them.
+arXiv: Materials Science
+Materials Today: Proceedings
+IOP Conference Series: Materials Science and Engineering
+KnE Materials Science
+Computational Materials Science eJournal
+Materials Science eJournal
+Biomaterials eJournal
+MatSciRN: Other Computational Materials Science (Topic)
+ChemRN: Applied Materials Science (Topic)
+EngRN: Biomaterials (Topic)
+FoodSciRN: New Trends & Reviews in Food Science (Topic)
+Springer Series in Materials Science
+Biomaterials Science Series
+Springer Series in Biomaterials Science and Engineering
+Studies in Mechanobiology, Tissue Engineering and Biomaterials
+2005 IEEE International Conference on Robotics and Biomimetics - ROBIO
+2013 IEEE International Conference on Robotics and Biomimetics (ROBIO)
+2017 IEEE International Conference on Robotics and Biomimetics (ROBIO)
+2018 IEEE International Conference on Robotics and Biomimetics (ROBIO)
+2022 IEEE International Conference on Robotics and Biomimetics (ROBIO)
+[1993 Proceedings] Fifth Biennial Nonvolatile Memory Technology Review
+THE 4TH BIOMEDICAL ENGINEERING’S RECENT PROGRESS IN BIOMATERIALS, DRUGS DEVELOPMENT, HEALTH, AND MEDICAL DEVICES: Proceedings of the International Symposium of Biomedical Engineering (ISBE) 2019
+PROCEEDINGS OF THE 2ND PHYSICS AND MATERIALS SCIENCE INTERNATIONAL SYMPOSIUM (PhyMaS 2.0)
+Materials Science &amp; Technology 2023 Technical meeting and exhibition, Greater Columbus Convention Center, Columbus, OH, USA, Oct 1-4, 2023
+Global Summit on Advanced Materials Science and Nanotechnology
+Global Summit on Materials Science and Engineering
+The 6th International Congress on 3D Materials Science 2022 WASHINGTON, DC June 26-29

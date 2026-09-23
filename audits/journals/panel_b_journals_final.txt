@@ -1,0 +1,13 @@
+# Selected dental/restorative journals represented in the audited corpus.
+# One journal title per line; use with --panel-b-journals.
+The Journal of Prosthetic Dentistry
+Dental Materials
+Journal of Dentistry
+International Dental Journal
+Dental Materials Journal
+Journal of Prosthodontic Research
+International Journal of Dental Materials
+International Journal of Dental Biomaterials Research
+European Dental Research and Biomaterials Journal
+Clinical Dentistry Reviewed
+Journal of Dental Science Research Reviews & Reports

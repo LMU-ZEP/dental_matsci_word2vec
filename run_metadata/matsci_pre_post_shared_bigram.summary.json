@@ -1,0 +1,35 @@
+{
+  "input_corpora": [
+    "outputs_after2018_xml_pdf/corpora/matsci_post2018_seed42.preprocessed.json",
+    "outputs_1992_2017_xml_pdf/corpora/matsci_pre2018_seed42.preprocessed.json"
+  ],
+  "output_corpora": [
+    "outputs_shared/matsci_post2018_seed42.shared_phrased.json",
+    "outputs_shared/matsci_pre2018_seed42.shared_phrased.json"
+  ],
+  "phraser_path": "outputs_shared/matsci_pre_post_shared_bigram.phraser",
+  "phrase_min_count": 30,
+  "phrase_threshold": 10.0,
+  "max_vocab_size": 40000000,
+  "corpus_summaries": [
+    {
+      "input_path": "outputs_after2018_xml_pdf/corpora/matsci_post2018_seed42.preprocessed.json",
+      "output_path": "outputs_shared/matsci_post2018_seed42.shared_phrased.json",
+      "n_docs": 646050,
+      "input_tokens": 285051273,
+      "output_tokens": 260521379,
+      "phrase_tokens_total": 24580195,
+      "unique_phrase_tokens": 149698
+    },
+    {
+      "input_path": "outputs_1992_2017_xml_pdf/corpora/matsci_pre2018_seed42.preprocessed.json",
+      "output_path": "outputs_shared/matsci_pre2018_seed42.shared_phrased.json",
+      "n_docs": 824810,
+      "input_tokens": 254001830,
+      "output_tokens": 234184910,
+      "phrase_tokens_total": 19847302,
+      "unique_phrase_tokens": 134961
+    }
+  ],
+  "top_phrases_csv": "outputs_shared/matsci_pre_post_shared_bigram.top_phrases.csv"
+}

@@ -1,0 +1,81 @@
+{
+  "corpus_source_records": {
+    "pre_total": 96150,
+    "pre_xml": 50224,
+    "pre_pdf": 45926,
+    "post_total_current_verified": 69195,
+    "post_xml_current_verified": 36988,
+    "post_pdf": 32207
+  },
+  "shared_phrased": {
+    "pre_tokens": 234184910,
+    "post_tokens": 260521379,
+    "pre_vocab": 256119,
+    "post_vocab": 278189
+  },
+  "targets": {
+    "material_system_memberships": 56,
+    "unique_paired_targets": 53,
+    "reliable_unique_targets_min_count_ge_1000": 43
+  },
+  "global_displacement": {
+    "mean": 0.16606631009193604,
+    "median": 0.134409191133656,
+    "sd": 0.08548544835861163,
+    "reliable_mean": 0.13582866096729232,
+    "reliable_median": 0.1274905501770387,
+    "reliable_sd": 0.04415646394498862
+  },
+  "material_system_displacement": {
+    "structural_color_composite": {
+      "n_all": 22,
+      "mean_all": 0.17866243556622746,
+      "n_reliable": 18,
+      "mean_reliable": 0.13715287227515566
+    },
+    "short_fiber_composite": {
+      "n_all": 19,
+      "mean_all": 0.15216189215392384,
+      "n_reliable": 16,
+      "mean_reliable": 0.13390472459146985
+    },
+    "zirconia": {
+      "n_all": 15,
+      "mean_all": 0.15316116374411676,
+      "n_reliable": 12,
+      "mean_reliable": 0.12891314015399571
+    }
+  },
+  "heldout_alignment_diagnostic": {
+    "fit_terms": 24000,
+    "heldout_terms": 6000,
+    "median_cosine_distance_before": 0.9972589758266133,
+    "median_cosine_distance_after": 0.26959273063331046,
+    "median_per_term_improvement": 0.7249548953870293,
+    "top1": 0.883,
+    "top5": 0.9683333333333334,
+    "top10": 0.9803333333333333,
+    "orthogonality_error": 5.032419289112787e-14
+  },
+  "alignment_vocabulary_sensitivity": {
+    "n_unique_terms": 53,
+    "pearson_r": 0.9981916329609319,
+    "spearman_rho": 0.992823738106757
+  },
+  "consistency_90pct": {
+    "pre2018": {
+      "anchors_total": 31,
+      "anchors_present": 27,
+      "mean_jaccard_10": 0.7471170804504136,
+      "mean_jaccard_20": 0.7629315397431341,
+      "pearson_pairwise_similarity": 0.9831416725965082
+    },
+    "post2018": {
+      "anchors_total": 31,
+      "anchors_present": 31,
+      "mean_jaccard_10": 0.7938190841416646,
+      "mean_jaccard_20": 0.7803738311452195,
+      "pearson_pairwise_similarity": 0.983669394687676
+    }
+  }
+}

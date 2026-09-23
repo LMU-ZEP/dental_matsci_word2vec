@@ -1,0 +1,4 @@
+term,status,in_pre,in_post,cosine_displacement,pre_count,post_count
+fracture_toughness,compared,True,True,0.07866218761351829,8,8
+shade_matching,compared,True,True,0.09915817824743067,8,8
+color_matching,compared,True,True,0.09702870363103422,8,8
